@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="278dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ree"
+            android:transitionName="example_transition"
+            android:contentDescription="TODO">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/first"
+            android:layout_width="match_parent"
+            android:layout_height="174dp"
+            android:text="@string/javascript_was_designed_to_add_interactivity_to_html_pages_javascript_is_a_scripting_language_a_javascript_consists_of_lines_of_executable_computer_code_a_javascript_is_usually_embedded_directly_into_html_pages_javascript_is_an_interpreted_language_everyone_can_use_javascript_without_purchasing_a_license_html_hypertext_markup_language_is_the_language_that_all_web_browsers_use_to_format_web_pages_on_the_screen_html_is_written_in_plain_text_and_it_can_be_created_with_any_word_processor_what_sets_the_off_from_regular_text_is_a_pair_of_angle_brackets_the_advantages_of_html_1_each_html_document_is_small_2_cross_platform_compatible_and_device_dependent_cascading_style_sheet_language_css_is_a_language_used_to_describe_the_presentation_that_is_the_look_and_formatting_of_a_document_written_in_a_markup_language_a_css_document_is_basically_constituted_by_a_set_of_rules_that_must_be_applied_to_elements_in_the_reference_file"
+            android:textAlignment="viewStart"
+            android:textSize="30sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="178dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/unnamed"
+            android:scaleType="centerCrop"
+            android:transitionName="example2_transition" >
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="data_science can be defined as a blend of mathematics, business acumen, tools, algorithms and machine learning techniques, all of which help us in finding out the hidden insights or patterns from raw data which can be of major use in the formation of big business decisions."
+            android:textSize="30sp">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="178dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"
+            android:scaleType="centerCrop"
+            android:src="@drawable/button"
+            android:transitionName="example3_transition">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/third"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="mobile app development to Become a mobile app developer with proficiency in all aspects of mobile applications from design to building and publishing apps for iOS and Android via this app development course."
+            android:textSize="30sp" >
+
+        </TextView>
+
+
+    </LinearLayout>
+</ScrollView>

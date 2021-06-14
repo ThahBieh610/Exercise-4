@@ -1,0 +1,100 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EC0E58"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/test"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:text="@string/limkokwing_technicnical_courses"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="178dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ree"
+                android:transitionName="example_transition">
+
+            </ImageView>
+
+            <Button
+                android:id="@+id/DataScience"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:onClick="DataScience"
+                android:text="datascience"
+                android:textStyle="bold">
+
+            </Button>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="178dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/unnamed"
+                android:scaleType="centerCrop"
+                android:transitionName="example2_transition" >
+
+            </ImageView>
+
+            <Button
+                android:id="@+id/WebDevelopment"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginTop="10dp"
+                android:onClick="WebDevelopment"
+                android:text="webdevelopment"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="178dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                android:scaleType="centerCrop"
+                android:src="@drawable/button"
+                android:transitionName="example3_transition">
+
+            </ImageView>
+
+            <Button
+                android:id="@+id/MobileAppDevelopment"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:layout_marginTop="10dp"
+                android:onClick="MobileAppDevelopment"
+                android:text="mobileappdevelopment"
+                android:textStyle="bold">
+
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
